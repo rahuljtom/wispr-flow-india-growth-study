@@ -1,0 +1,23 @@
+# Secrets and local environment
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Data that is not redistributed (review text, labels, raw pulls)
+data/raw/
+data/private/
+data/processed/wispr_reviews.csv
+data/interim/tags/
+data/interim/tag_cache.json
+data/interim/bulk_sample_ids.csv
+data/logs/gemini_usage.json
+data/logs/token_log.csv
+
+# Local working files that are not part of the project
+CLAUDE.md
+PLAN.md
+docs/project_notes.md

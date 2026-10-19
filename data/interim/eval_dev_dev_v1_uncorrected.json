@@ -1,0 +1,103 @@
+{
+ "split": "dev",
+ "n": 40,
+ "n_in_split": 40,
+ "n_missing_predictions": 0,
+ "micro_f1": 0.6422018348623854,
+ "sentiment_kappa": 0.6761133603238867,
+ "micro_f1_ci95": [
+  0.5666666666666667,
+  0.7238095238095238
+ ],
+ "sentiment_kappa_ci95": [
+  0.48050742201160035,
+  0.8380313944289459
+ ],
+ "themes": {
+  "accuracy_general": {
+   "status": "not evaluated",
+   "support": 4
+  },
+  "hinglish_code_switching": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "accent_or_noise": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "latency_speed": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "reliability_crash_bug": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "onboarding_setup_permissions": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "pricing_paywall": {
+   "status": "not evaluated",
+   "support": 2
+  },
+  "free_tier_limits": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "privacy_trust": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "support_billing_cancellation": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "battery_performance": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "feature_request": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "praise_productivity": {
+   "status": "evaluated",
+   "tp": 15,
+   "fp": 5,
+   "fn": 0,
+   "precision": 0.75,
+   "recall": 1.0,
+   "support": 15
+  },
+  "competitor_comparison": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "other_indian_language": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "ui_ux": {
+   "status": "not evaluated",
+   "support": 4
+  },
+  "other": {
+   "status": "not evaluated",
+   "support": 1
+  }
+ },
+ "worst_themes": {
+  "praise_productivity": {
+   "f1": 0.8571428571428571,
+   "disagreeing_gold_ids": [
+    "gold_003",
+    "gold_030",
+    "gold_057",
+    "gold_074",
+    "gold_092"
+   ]
+  }
+ }
+}

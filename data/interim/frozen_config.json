@@ -1,0 +1,8 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "prompt_version": "v3",
+ "rpm": 5.0,
+ "supersedes": "v2",
+ "reason": "Human revised all gold labels 2026-10-18; on revised dev labels v3 has best micro-F1 (0.727 vs 0.640 v1, 0.619 v2). Human instructed re-freeze if v3 remains best.",
+ "frozen_utc": "2026-10-18T08:25:08+00:00"
+}

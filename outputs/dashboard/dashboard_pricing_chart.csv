@@ -1,0 +1,9 @@
+label,inr_per_month,product,billing,source_url,group
+Wispr Flow India Pro (billed annually),320,Wispr Flow,annual,https://wisprflow.ai/india,Wispr Flow
+Wispr Flow India Pro (billed monthly),400,Wispr Flow,monthly,https://wisprflow.ai/india,Wispr Flow
+Aqua Voice Pro (billed annually),753,Aqua Voice,annual,https://aquavoice.com/pricing,Other
+Aqua Voice Pro (billed monthly),941,Aqua Voice,monthly,https://aquavoice.com/pricing,Other
+Wispr Flow Pro (billed annually),1129,Wispr Flow,annual,https://wisprflow.ai/pricing,Wispr Flow
+Typeless Pro (billed annually),1129,Typeless,annual,https://www.typeless.com/pricing,Other
+Wispr Flow Pro (billed monthly),1412,Wispr Flow,monthly,https://wisprflow.ai/pricing,Wispr Flow
+Typeless Pro (billed monthly),2824,Typeless,monthly,https://www.typeless.com/pricing,Other

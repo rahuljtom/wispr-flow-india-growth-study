@@ -1,0 +1,24 @@
+{
+ "name": "dev_v1",
+ "started_utc": "2026-10-18T07:02:01+00:00",
+ "n_requested": 40,
+ "n_tagged": 40,
+ "validation_errors": {},
+ "aborted": null,
+ "client_stats": {
+  "requests": 38,
+  "http_429": 0,
+  "http_other_errors": 0
+ },
+ "config": {
+  "provider": "gemini",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/interactions",
+  "model_id": "gemini-3.5-flash-lite",
+  "prompt_version": "v1",
+  "rpm": 5.0,
+  "rpd": 100,
+  "max_output_tokens": 1024,
+  "temperature": "not set (not documented for the Interactions API)",
+  "response_format": "application/json with JSON schema"
+ }
+}

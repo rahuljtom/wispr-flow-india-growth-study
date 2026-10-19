@@ -1,0 +1,341 @@
+{
+ "split": "test",
+ "n": 60,
+ "n_in_split": 60,
+ "n_missing_predictions": 0,
+ "n_unlabelled_gold": 0,
+ "micro_f1": 0.783625730994152,
+ "sentiment_kappa": 0.830028328611898,
+ "micro_f1_ci95": [
+  0.7150837988826816,
+  0.8491904459237949
+ ],
+ "sentiment_kappa_ci95": [
+  0.684435756190736,
+  0.9451309424394942
+ ],
+ "sentiment_confusion": {
+  "neg": {
+   "neg": 18,
+   "neu": 1,
+   "pos": 2
+  },
+  "neu": {
+   "neg": 1,
+   "neu": 6,
+   "pos": 2
+  },
+  "pos": {
+   "neg": 0,
+   "neu": 0,
+   "pos": 30
+  }
+ },
+ "all_themes_dev_diagnostic": {
+  "accuracy_general": {
+   "tp": 12,
+   "fp": 2,
+   "fn": 3,
+   "precision": 0.8571428571428571,
+   "recall": 0.8,
+   "support": 15,
+   "tn": 43,
+   "f1": 0.8275862068965517
+  },
+  "hinglish_code_switching": {
+   "tp": 2,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.6666666666666666,
+   "recall": 0.6666666666666666,
+   "support": 3,
+   "tn": 56,
+   "f1": 0.6666666666666666
+  },
+  "accent_or_noise": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "support": 0,
+   "tn": 59,
+   "f1": 0.0
+  },
+  "latency_speed": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 1,
+   "tn": 59,
+   "f1": 1.0
+  },
+  "reliability_crash_bug": {
+   "tp": 5,
+   "fp": 2,
+   "fn": 1,
+   "precision": 0.7142857142857143,
+   "recall": 0.8333333333333334,
+   "support": 6,
+   "tn": 52,
+   "f1": 0.7692307692307693
+  },
+  "onboarding_setup_permissions": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 2,
+   "tn": 58,
+   "f1": 1.0
+  },
+  "pricing_paywall": {
+   "tp": 6,
+   "fp": 3,
+   "fn": 1,
+   "precision": 0.6666666666666666,
+   "recall": 0.8571428571428571,
+   "support": 7,
+   "tn": 50,
+   "f1": 0.75
+  },
+  "free_tier_limits": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "support": 0,
+   "tn": 59,
+   "f1": 0.0
+  },
+  "privacy_trust": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.5,
+   "support": 2,
+   "tn": 58,
+   "f1": 0.6666666666666666
+  },
+  "support_billing_cancellation": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 3,
+   "tn": 57,
+   "f1": 1.0
+  },
+  "battery_performance": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 2,
+   "tn": 58,
+   "f1": 1.0
+  },
+  "feature_request": {
+   "tp": 6,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.8571428571428571,
+   "recall": 0.8571428571428571,
+   "support": 7,
+   "tn": 52,
+   "f1": 0.8571428571428571
+  },
+  "praise_productivity": {
+   "tp": 8,
+   "fp": 5,
+   "fn": 1,
+   "precision": 0.6153846153846154,
+   "recall": 0.8888888888888888,
+   "support": 9,
+   "tn": 46,
+   "f1": 0.7272727272727273
+  },
+  "competitor_comparison": {
+   "tp": 0,
+   "fp": 3,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "support": 0,
+   "tn": 57,
+   "f1": 0.0
+  },
+  "other_indian_language": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.5,
+   "support": 4,
+   "tn": 56,
+   "f1": 0.6666666666666666
+  },
+  "ui_ux": {
+   "tp": 4,
+   "fp": 2,
+   "fn": 2,
+   "precision": 0.6666666666666666,
+   "recall": 0.6666666666666666,
+   "support": 6,
+   "tn": 52,
+   "f1": 0.6666666666666666
+  },
+  "other": {
+   "tp": 13,
+   "fp": 1,
+   "fn": 2,
+   "precision": 0.9285714285714286,
+   "recall": 0.8666666666666667,
+   "support": 15,
+   "tn": 44,
+   "f1": 0.896551724137931
+  }
+ },
+ "themes": {
+  "accuracy_general": {
+   "status": "evaluated",
+   "tp": 12,
+   "fp": 2,
+   "fn": 3,
+   "precision": 0.8571428571428571,
+   "recall": 0.8,
+   "support": 15
+  },
+  "hinglish_code_switching": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "accent_or_noise": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "latency_speed": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "reliability_crash_bug": {
+   "status": "evaluated",
+   "tp": 5,
+   "fp": 2,
+   "fn": 1,
+   "precision": 0.7142857142857143,
+   "recall": 0.8333333333333334,
+   "support": 6
+  },
+  "onboarding_setup_permissions": {
+   "status": "not evaluated",
+   "support": 2
+  },
+  "pricing_paywall": {
+   "status": "evaluated",
+   "tp": 6,
+   "fp": 3,
+   "fn": 1,
+   "precision": 0.6666666666666666,
+   "recall": 0.8571428571428571,
+   "support": 7
+  },
+  "free_tier_limits": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "privacy_trust": {
+   "status": "not evaluated",
+   "support": 2
+  },
+  "support_billing_cancellation": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "battery_performance": {
+   "status": "not evaluated",
+   "support": 2
+  },
+  "feature_request": {
+   "status": "evaluated",
+   "tp": 6,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.8571428571428571,
+   "recall": 0.8571428571428571,
+   "support": 7
+  },
+  "praise_productivity": {
+   "status": "evaluated",
+   "tp": 8,
+   "fp": 5,
+   "fn": 1,
+   "precision": 0.6153846153846154,
+   "recall": 0.8888888888888888,
+   "support": 9
+  },
+  "competitor_comparison": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "other_indian_language": {
+   "status": "not evaluated",
+   "support": 4
+  },
+  "ui_ux": {
+   "status": "evaluated",
+   "tp": 4,
+   "fp": 2,
+   "fn": 2,
+   "precision": 0.6666666666666666,
+   "recall": 0.6666666666666666,
+   "support": 6
+  },
+  "other": {
+   "status": "evaluated",
+   "tp": 13,
+   "fp": 1,
+   "fn": 2,
+   "precision": 0.9285714285714286,
+   "recall": 0.8666666666666667,
+   "support": 15
+  }
+ },
+ "worst_themes": {
+  "ui_ux": {
+   "f1": 0.6666666666666666,
+   "disagreeing_gold_ids": [
+    "gold_010",
+    "gold_016",
+    "gold_019",
+    "gold_053"
+   ]
+  },
+  "praise_productivity": {
+   "f1": 0.7272727272727273,
+   "disagreeing_gold_ids": [
+    "gold_004",
+    "gold_016",
+    "gold_021",
+    "gold_040",
+    "gold_076"
+   ]
+  },
+  "pricing_paywall": {
+   "f1": 0.75,
+   "disagreeing_gold_ids": [
+    "gold_026",
+    "gold_067",
+    "gold_082",
+    "gold_087"
+   ]
+  }
+ }
+}

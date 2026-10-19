@@ -1,0 +1,241 @@
+{
+ "wispr_flow": {
+  "usable_geos": [
+   "IN-KA",
+   "IN-MH"
+  ],
+  "pre_stats": {
+   "IN-KA": {
+    "geo": "IN-KA",
+    "n_pre": 35,
+    "n_zero": 14,
+    "n_missing": 0,
+    "n_nonzero": 21,
+    "pre_mean": 26.057142857142857
+   },
+   "IN-MH": {
+    "geo": "IN-MH",
+    "n_pre": 35,
+    "n_zero": 14,
+    "n_missing": 0,
+    "n_nonzero": 21,
+    "pre_mean": 25.228571428571428
+   },
+   "IN-DL": {
+    "geo": "IN-DL",
+    "n_pre": 35,
+    "n_zero": 31,
+    "n_missing": 0,
+    "n_nonzero": 4,
+    "pre_mean": 6.0285714285714285
+   },
+   "IN-TN": {
+    "geo": "IN-TN",
+    "n_pre": 35,
+    "n_zero": 28,
+    "n_missing": 0,
+    "n_nonzero": 7,
+    "pre_mean": 6.742857142857143
+   },
+   "IN-TG": {
+    "geo": "IN-TG",
+    "n_pre": 35,
+    "n_zero": 30,
+    "n_missing": 0,
+    "n_nonzero": 5,
+    "pre_mean": 8.8
+   }
+  },
+  "did": {
+   "event_date": "2026-04-27",
+   "treated": "IN-KA",
+   "usable": {
+    "IN-KA": true,
+    "IN-MH": true,
+    "IN-DL": false,
+    "IN-TN": false,
+    "IN-TG": false
+   },
+   "label": "directional diagnostic, not causal",
+   "status": "not estimable",
+   "reason": "fewer than 2 usable controls (1)"
+  }
+ },
+ "whisper_flow": {
+  "usable_geos": [],
+  "pre_stats": {
+   "IN-KA": {
+    "geo": "IN-KA",
+    "n_pre": 35,
+    "n_zero": 33,
+    "n_missing": 0,
+    "n_nonzero": 2,
+    "pre_mean": 2.914285714285714
+   },
+   "IN-MH": {
+    "geo": "IN-MH",
+    "n_pre": 35,
+    "n_zero": 26,
+    "n_missing": 0,
+    "n_nonzero": 9,
+    "pre_mean": 9.057142857142857
+   },
+   "IN-DL": {
+    "geo": "IN-DL",
+    "n_pre": 35,
+    "n_zero": 33,
+    "n_missing": 0,
+    "n_nonzero": 2,
+    "pre_mean": 3.3142857142857145
+   },
+   "IN-TN": {
+    "geo": "IN-TN",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-TG": {
+    "geo": "IN-TG",
+    "n_pre": 35,
+    "n_zero": 32,
+    "n_missing": 0,
+    "n_nonzero": 3,
+    "pre_mean": 6.828571428571428
+   }
+  },
+  "did": {
+   "event_date": "2026-04-27",
+   "treated": "IN-KA",
+   "usable": {
+    "IN-KA": false,
+    "IN-MH": false,
+    "IN-DL": false,
+    "IN-TN": false,
+    "IN-TG": false
+   },
+   "label": "directional diagnostic, not causal",
+   "status": "not estimable",
+   "reason": "treated geo pre-period is zero or too sparse"
+  }
+ },
+ "wisper_flow": {
+  "usable_geos": [],
+  "pre_stats": {
+   "IN-KA": {
+    "geo": "IN-KA",
+    "n_pre": 35,
+    "n_zero": 33,
+    "n_missing": 0,
+    "n_nonzero": 2,
+    "pre_mean": 2.2857142857142856
+   },
+   "IN-MH": {
+    "geo": "IN-MH",
+    "n_pre": 35,
+    "n_zero": 34,
+    "n_missing": 0,
+    "n_nonzero": 1,
+    "pre_mean": 0.8
+   },
+   "IN-DL": {
+    "geo": "IN-DL",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-TN": {
+    "geo": "IN-TN",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-TG": {
+    "geo": "IN-TG",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   }
+  },
+  "did": {
+   "event_date": "2026-04-27",
+   "treated": "IN-KA",
+   "usable": {
+    "IN-KA": false,
+    "IN-MH": false,
+    "IN-DL": false,
+    "IN-TN": false,
+    "IN-TG": false
+   },
+   "label": "directional diagnostic, not causal",
+   "status": "not estimable",
+   "reason": "treated geo pre-period is zero or too sparse"
+  }
+ },
+ "whispr_flow": {
+  "usable_geos": [],
+  "pre_stats": {
+   "IN-KA": {
+    "geo": "IN-KA",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-MH": {
+    "geo": "IN-MH",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-DL": {
+    "geo": "IN-DL",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-TN": {
+    "geo": "IN-TN",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   },
+   "IN-TG": {
+    "geo": "IN-TG",
+    "n_pre": 35,
+    "n_zero": 35,
+    "n_missing": 0,
+    "n_nonzero": 0,
+    "pre_mean": 0.0
+   }
+  },
+  "did": {
+   "event_date": "2026-04-27",
+   "treated": "IN-KA",
+   "usable": {
+    "IN-KA": false,
+    "IN-MH": false,
+    "IN-DL": false,
+    "IN-TN": false,
+    "IN-TG": false
+   },
+   "label": "directional diagnostic, not causal",
+   "status": "not estimable",
+   "reason": "treated geo pre-period is zero or too sparse"
+  }
+ }
+}

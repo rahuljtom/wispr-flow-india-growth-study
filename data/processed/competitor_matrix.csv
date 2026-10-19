@@ -1,0 +1,51 @@
+competitor,criterion,score,source_url,retrieved_on,rationale
+Superflow,android_in_india,3,https://play.google.com/store/apps/details?id=ai.getsupernova.superflow&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Oct 14, 2026, released Mar 25, 2026"
+Superflow,hinglish_support,3,https://play.google.com/store/apps/details?id=ai.getsupernova.superflow&hl=en_IN&gl=IN,2026-10-19,"Listing claims Hinglish and code-switching, and dictation from Hindi and four other Indian languages to English"
+Superflow,reach_global_play,2,https://play.google.com/store/apps/details?id=ai.getsupernova.superflow&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 1,000,000+ (India share not public); rating 4.62 from 5785 ratings"
+Superflow,price_relevance,unknown,,,"Play listing shows INR in-app items 250 to 950 per item without a billing period; no vendor price statement found, so not compared with Flow's price"
+Superflow,feature_overlap,3,https://play.google.com/store/apps/details?id=ai.getsupernova.superflow&hl=en_IN&gl=IN,2026-10-19,"Voice keyboard via Android Accessibility that works in other apps; Indian-language speech is output as English text (translation), unlike Flow's Hinglish transcription; claims accents and code-switching"
+Gboard,android_in_india,3,https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Sep 30, 2026, released Jan 26, 2015"
+Gboard,hinglish_support,2,https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,Listing lists Hindi among voice typing languages; code-switching is reported for the Gemini feature (TechCrunch 2026-05-12)
+Gboard,reach_global_play,3,https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 10,000,000,000+ (India share not public); rating 4.35 from 18893670 ratings"
+Gboard,price_relevance,3,https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,Play listing: free with no in-app purchases listed (core voice typing free)
+Gboard,feature_overlap,2,https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,Voice typing across apps; AI cleanup is announced for the Gemini feature but not rolled out to all devices
+Typeless,android_in_india,3,https://play.google.com/store/apps/details?id=com.typeless.mobile&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Oct 10, 2026, released Jan 13, 2026"
+Typeless,hinglish_support,1,https://www.typeless.com/pricing,2026-10-19,Pricing page claims 100+ languages; Hindi and Hinglish not named
+Typeless,reach_global_play,1,https://play.google.com/store/apps/details?id=com.typeless.mobile&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 500,000+ (India share not public); rating 3.77 from 3000 ratings"
+Typeless,price_relevance,1,https://www.typeless.com/pricing,2026-10-18,"Pricing page: 12 USD per month billed yearly (about 1,129 INR a month) against Flow India 320 a month billed annually; Play INR items 3,250 to 15,700 have no stated billing period"
+Typeless,feature_overlap,3,https://play.google.com/store/apps/details?id=com.typeless.mobile&hl=en_IN&gl=IN,2026-10-19,"AI dictation, filler-word removal, works in every app (Play listing)"
+Aqua Voice,android_in_india,3,https://play.google.com/store/apps/details?id=com.aquavoice.android&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated nan, released Oct 6, 2026"
+Aqua Voice,hinglish_support,unknown,,,No Hindi or Hinglish statement found
+Aqua Voice,reach_global_play,0,https://play.google.com/store/apps/details?id=com.aquavoice.android&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 1,000+ (India share not public); rating nan from few ratings"
+Aqua Voice,price_relevance,1,https://aquavoice.com/pricing,2026-10-18,"Pricing page: 8 USD per month billed annually (about 753 INR a month) against Flow India 320; Play INR items 1,450 to 42,100 have no stated billing period"
+Aqua Voice,feature_overlap,3,https://play.google.com/store/apps/details?id=com.aquavoice.android&hl=en_IN&gl=IN,2026-10-19,Speech to text in every app with voice editing and custom dictionary (Play listing and pricing page)
+Superwhisper,android_in_india,unknown,,,No Google Play listing found by search on the India storefront; its site claims Android (not verified)
+Superwhisper,hinglish_support,1,https://superwhisper.com,2026-10-18,Home page claims 100+ languages and dialects; Hindi not named
+Superwhisper,reach_global_play,unknown,,,"No Play listing found, so no install band"
+Superwhisper,price_relevance,2,https://superwhisper.com,2026-10-18,Free tier with unlimited Whisper models and offline use; paid price rendering unclear on the page
+Superwhisper,feature_overlap,2,https://superwhisper.com,2026-10-18,Voice to text in any app with custom prompts; Android listing not found on the India storefront
+Bobble AI Keyboard,android_in_india,3,https://play.google.com/store/apps/details?id=com.touchtalent.bobbleapp&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Oct 16, 2026, released Mar 18, 2015"
+Bobble AI Keyboard,hinglish_support,1,https://play.google.com/store/apps/details?id=com.touchtalent.bobbleapp&hl=en_IN&gl=IN,2026-10-19,Hindi keyboard with Hinglish text input; the listing does not state voice-typing languages
+Bobble AI Keyboard,reach_global_play,2,https://play.google.com/store/apps/details?id=com.touchtalent.bobbleapp&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 50,000,000+ (India share not public); rating 4.35 from 480146 ratings"
+Bobble AI Keyboard,price_relevance,unknown,,,"Play listing shows INR in-app items 50 to 2,000 per item without a billing period; no vendor price statement found, so not compared with Flow's price"
+Bobble AI Keyboard,feature_overlap,1,https://play.google.com/store/apps/details?id=com.touchtalent.bobbleapp&hl=en_IN&gl=IN,2026-10-19,"Keyboard (stickers, themes) with voice typing as a side feature"
+Hindi Voice Typing (HinKhoj),android_in_india,3,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Aug 9, 2026, released Jul 27, 2019"
+Hindi Voice Typing (HinKhoj),hinglish_support,2,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,Hindi voice typing for messages and notes; no Hinglish or code-switching claim
+Hindi Voice Typing (HinKhoj),reach_global_play,1,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 500,000+ (India share not public); rating 4.04 from 4603 ratings"
+Hindi Voice Typing (HinKhoj),price_relevance,3,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,Play listing: free with no in-app purchases listed (core voice typing free)
+Hindi Voice Typing (HinKhoj),feature_overlap,2,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,Voice typing in Hindi for SMS and messaging apps without AI cleanup
+SoundType AI,android_in_india,3,https://play.google.com/store/apps/details?id=com.innosq.soundtypeai&hl=en_IN&gl=IN,2026-10-19,"Listing on the India Play storefront; updated Aug 23, 2026, released Apr 24, 2023"
+SoundType AI,hinglish_support,1,https://play.google.com/store/apps/details?id=com.innosq.soundtypeai&hl=en_IN&gl=IN,2026-10-19,Generic claim of 90 languages; Hindi not named
+SoundType AI,reach_global_play,2,https://play.google.com/store/apps/details?id=com.innosq.soundtypeai&hl=en_IN&gl=IN,2026-10-19,"Global Play install band 1,000,000+ (India share not public); rating 4.34 from 49729 ratings"
+SoundType AI,price_relevance,unknown,,,"Play listing shows INR in-app items 620 to 28,500 per item without a billing period; no vendor price statement found, so not compared with Flow's price"
+SoundType AI,feature_overlap,1,https://play.google.com/store/apps/details?id=com.innosq.soundtypeai&hl=en_IN&gl=IN,2026-10-19,Transcribes audio and video files; not an in-app dictation overlay
+Apple dictation,android_in_india,unknown,,,Not researched; Apple dictation is iOS and macOS only and not on Google Play
+Apple dictation,hinglish_support,unknown,,,Not researched; Apple dictation is iOS and macOS only and not on Google Play
+Apple dictation,reach_global_play,unknown,,,Not researched; Apple dictation is iOS and macOS only and not on Google Play
+Apple dictation,price_relevance,unknown,,,Not researched; Apple dictation is iOS and macOS only and not on Google Play
+Apple dictation,feature_overlap,unknown,,,Not researched; Apple dictation is iOS and macOS only and not on Google Play
+Google AI Edge Eloquent,android_in_india,unknown,,,Free offline dictation app reported iOS-first (secondary press); no Google Play listing found
+Google AI Edge Eloquent,hinglish_support,unknown,,,Free offline dictation app reported iOS-first (secondary press); no Google Play listing found
+Google AI Edge Eloquent,reach_global_play,unknown,,,Free offline dictation app reported iOS-first (secondary press); no Google Play listing found
+Google AI Edge Eloquent,price_relevance,unknown,,,Free offline dictation app reported iOS-first (secondary press); no Google Play listing found
+Google AI Edge Eloquent,feature_overlap,unknown,,,Free offline dictation app reported iOS-first (secondary press); no Google Play listing found

@@ -1,0 +1,332 @@
+{
+ "split": "dev",
+ "n": 40,
+ "n_in_split": 40,
+ "n_missing_predictions": 0,
+ "n_unlabelled_gold": 0,
+ "micro_f1": 0.6428571428571429,
+ "sentiment_kappa": 0.8765432098765432,
+ "micro_f1_ci95": [
+  0.5405405405405406,
+  0.7358738828202581
+ ],
+ "sentiment_kappa_ci95": [
+  0.7330332199279002,
+  1.0
+ ],
+ "sentiment_confusion": {
+  "neg": {
+   "neg": 12,
+   "neu": 0,
+   "pos": 0
+  },
+  "neu": {
+   "neg": 2,
+   "neu": 5,
+   "pos": 1
+  },
+  "pos": {
+   "neg": 0,
+   "neu": 0,
+   "pos": 20
+  }
+ },
+ "all_themes_dev_diagnostic": {
+  "accuracy_general": {
+   "tp": 10,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.9090909090909091,
+   "recall": 0.9090909090909091,
+   "support": 11,
+   "tn": 28,
+   "f1": 0.9090909090909091
+  },
+  "hinglish_code_switching": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "precision": null,
+   "recall": 0.0,
+   "support": 1,
+   "tn": 39,
+   "f1": 0.0
+  },
+  "accent_or_noise": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "support": 0,
+   "tn": 39,
+   "f1": 0.0
+  },
+  "latency_speed": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 1,
+   "tn": 39,
+   "f1": 1.0
+  },
+  "reliability_crash_bug": {
+   "tp": 1,
+   "fp": 4,
+   "fn": 3,
+   "precision": 0.2,
+   "recall": 0.25,
+   "support": 4,
+   "tn": 32,
+   "f1": 0.2222222222222222
+  },
+  "onboarding_setup_permissions": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "precision": null,
+   "recall": null,
+   "support": 0,
+   "tn": 40,
+   "f1": null
+  },
+  "pricing_paywall": {
+   "tp": 3,
+   "fp": 2,
+   "fn": 1,
+   "precision": 0.6,
+   "recall": 0.75,
+   "support": 4,
+   "tn": 34,
+   "f1": 0.6666666666666666
+  },
+  "free_tier_limits": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "support": 3,
+   "tn": 37,
+   "f1": 1.0
+  },
+  "privacy_trust": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "precision": null,
+   "recall": 0.0,
+   "support": 1,
+   "tn": 39,
+   "f1": 0.0
+  },
+  "support_billing_cancellation": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "precision": null,
+   "recall": null,
+   "support": 0,
+   "tn": 40,
+   "f1": null
+  },
+  "battery_performance": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "precision": null,
+   "recall": null,
+   "support": 0,
+   "tn": 40,
+   "f1": null
+  },
+  "feature_request": {
+   "tp": 5,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.8333333333333334,
+   "recall": 1.0,
+   "support": 5,
+   "tn": 34,
+   "f1": 0.9090909090909091
+  },
+  "praise_productivity": {
+   "tp": 7,
+   "fp": 11,
+   "fn": 0,
+   "precision": 0.3888888888888889,
+   "recall": 1.0,
+   "support": 7,
+   "tn": 22,
+   "f1": 0.56
+  },
+  "competitor_comparison": {
+   "tp": 1,
+   "fp": 2,
+   "fn": 0,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "support": 1,
+   "tn": 37,
+   "f1": 0.5
+  },
+  "other_indian_language": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "precision": null,
+   "recall": null,
+   "support": 0,
+   "tn": 40,
+   "f1": null
+  },
+  "ui_ux": {
+   "tp": 4,
+   "fp": 2,
+   "fn": 2,
+   "precision": 0.6666666666666666,
+   "recall": 0.6666666666666666,
+   "support": 6,
+   "tn": 32,
+   "f1": 0.6666666666666666
+  },
+  "other": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 7,
+   "precision": 1.0,
+   "recall": 0.125,
+   "support": 8,
+   "tn": 32,
+   "f1": 0.2222222222222222
+  }
+ },
+ "themes": {
+  "accuracy_general": {
+   "status": "evaluated",
+   "tp": 10,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.9090909090909091,
+   "recall": 0.9090909090909091,
+   "support": 11
+  },
+  "hinglish_code_switching": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "accent_or_noise": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "latency_speed": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "reliability_crash_bug": {
+   "status": "not evaluated",
+   "support": 4
+  },
+  "onboarding_setup_permissions": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "pricing_paywall": {
+   "status": "not evaluated",
+   "support": 4
+  },
+  "free_tier_limits": {
+   "status": "not evaluated",
+   "support": 3
+  },
+  "privacy_trust": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "support_billing_cancellation": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "battery_performance": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "feature_request": {
+   "status": "evaluated",
+   "tp": 5,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.8333333333333334,
+   "recall": 1.0,
+   "support": 5
+  },
+  "praise_productivity": {
+   "status": "evaluated",
+   "tp": 7,
+   "fp": 11,
+   "fn": 0,
+   "precision": 0.3888888888888889,
+   "recall": 1.0,
+   "support": 7
+  },
+  "competitor_comparison": {
+   "status": "not evaluated",
+   "support": 1
+  },
+  "other_indian_language": {
+   "status": "not evaluated",
+   "support": 0
+  },
+  "ui_ux": {
+   "status": "evaluated",
+   "tp": 4,
+   "fp": 2,
+   "fn": 2,
+   "precision": 0.6666666666666666,
+   "recall": 0.6666666666666666,
+   "support": 6
+  },
+  "other": {
+   "status": "evaluated",
+   "tp": 1,
+   "fp": 0,
+   "fn": 7,
+   "precision": 1.0,
+   "recall": 0.125,
+   "support": 8
+  }
+ },
+ "worst_themes": {
+  "other": {
+   "f1": 0.2222222222222222,
+   "disagreeing_gold_ids": [
+    "gold_011",
+    "gold_017",
+    "gold_024",
+    "gold_025",
+    "gold_047"
+   ]
+  },
+  "praise_productivity": {
+   "f1": 0.56,
+   "disagreeing_gold_ids": [
+    "gold_011",
+    "gold_013",
+    "gold_017",
+    "gold_024",
+    "gold_025"
+   ]
+  },
+  "ui_ux": {
+   "f1": 0.6666666666666666,
+   "disagreeing_gold_ids": [
+    "gold_027",
+    "gold_054",
+    "gold_057",
+    "gold_097"
+   ]
+  }
+ }
+}

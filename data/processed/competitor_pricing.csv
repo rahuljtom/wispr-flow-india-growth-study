@@ -1,0 +1,15 @@
+product,plan,price_usd_per_month,billing,free_tier,source_url,retrieved_on,note,price_note
+Wispr Flow,Pro,12,annual,"2,000 words/week desktop; 1,000 mobile",https://wisprflow.ai/pricing,2026-10-18,Global USD price,
+Wispr Flow,Pro,15,monthly,"2,000 words/week desktop; 1,000 mobile",https://wisprflow.ai/pricing,2026-10-18,Global USD price,
+Wispr Flow,India Pro,3.4,annual,unknown,https://wisprflow.ai/india,2026-10-18,Rs 320 per user per month billed annually on the India page (TechCrunch also reports about 3.4 USD),
+Typeless,Pro,12,annual,Limited words each week,https://www.typeless.com/pricing,2026-10-18,USD only,
+Typeless,Pro,30,monthly,Limited words each week,https://www.typeless.com/pricing,2026-10-18,USD only,
+Aqua Voice,Pro,8,annual,1000 free words,https://aquavoice.com/pricing,2026-10-18,USD only,
+Aqua Voice,Pro,10,monthly,1000 free words,https://aquavoice.com/pricing,2026-10-18,USD only,
+Superwhisper,Pro,unknown,unknown,Free tier with unlimited Whisper models,https://superwhisper.com,2026-10-18,Price rendering unclear on page; pricing URL returned 404,
+Gboard,Voice typing (Play listing),not applicable,not applicable,Voice typing is free; no in-app purchases listed (Gemini Rambler pricing not stated),https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IN&gl=IN,2026-10-19,"Play listing: free, no in-app purchases; installs are a global band",free (no in-app purchases listed)
+Apple Dictation,unknown,unknown,unknown,unknown,,,Not researched yet,
+Wispr Flow,India Pro,unknown,monthly,unknown,https://wisprflow.ai/india,2026-10-18,Rs 400 per user per month listed on the India page; INR is the listed price (USD not stated),
+Hindi Voice Typing (HinKhoj),Voice typing (Play listing),not applicable,not applicable,Free with ads; no in-app purchases listed,https://play.google.com/store/apps/details?id=info.hindime.voice.typing&hl=en_IN&gl=IN,2026-10-19,"Play listing: free, ad-supported",free (ads; no in-app purchases listed)
+Superflow,Play in-app items,not applicable,unknown,Free to install; in-app items 250 to 950 INR per item,https://play.google.com/store/apps/details?id=ai.getsupernova.superflow&hl=en_IN&gl=IN,2026-10-19,Billing period of the items is not stated; no vendor pricing page found,250-950 per item (billing period not stated)
+Wispr Flow,Play in-app items,not applicable,unknown,Free to install; in-app items 400 to 3849 INR per item,https://play.google.com/store/apps/details?id=com.wispr.flowapp&hl=en_IN&gl=IN,2026-10-19,Billing period of the items is not stated on Play; the India page lists 400 monthly and 320 a month billed annually,400-3849 per item (billing period not stated)

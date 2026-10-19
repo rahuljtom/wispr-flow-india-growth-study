@@ -1,0 +1,253 @@
+experiment,baseline_pct,mde_points,android_share_pct,eligible_share_pct,exposed_share_pct,n_per_arm,enrolment_days,follow_up_days,total_days
+E1 Android permission flow,20.0,3.0,30,50,50,2941,47.5,7,54.5
+E1 Android permission flow,20.0,3.0,30,50,100,2941,23.8,7,30.8
+E1 Android permission flow,20.0,3.0,30,80,50,2941,29.7,7,36.7
+E1 Android permission flow,20.0,3.0,30,80,100,2941,14.9,7,21.9
+E1 Android permission flow,20.0,3.0,50,50,50,2941,28.5,7,35.5
+E1 Android permission flow,20.0,3.0,50,50,100,2941,14.3,7,21.3
+E1 Android permission flow,20.0,3.0,50,80,50,2941,17.8,7,24.8
+E1 Android permission flow,20.0,3.0,50,80,100,2941,8.9,7,15.9
+E1 Android permission flow,20.0,3.0,70,50,50,2941,20.4,7,27.4
+E1 Android permission flow,20.0,3.0,70,50,100,2941,10.2,7,17.2
+E1 Android permission flow,20.0,3.0,70,80,50,2941,12.7,7,19.7
+E1 Android permission flow,20.0,3.0,70,80,100,2941,6.4,7,13.4
+E1 Android permission flow,20.0,5.0,30,50,50,1092,17.6,7,24.6
+E1 Android permission flow,20.0,5.0,30,50,100,1092,8.8,7,15.8
+E1 Android permission flow,20.0,5.0,30,80,50,1092,11.0,7,18.0
+E1 Android permission flow,20.0,5.0,30,80,100,1092,5.5,7,12.5
+E1 Android permission flow,20.0,5.0,50,50,50,1092,10.6,7,17.6
+E1 Android permission flow,20.0,5.0,50,50,100,1092,5.3,7,12.3
+E1 Android permission flow,20.0,5.0,50,80,50,1092,6.6,7,13.6
+E1 Android permission flow,20.0,5.0,50,80,100,1092,3.3,7,10.3
+E1 Android permission flow,20.0,5.0,70,50,50,1092,7.6,7,14.6
+E1 Android permission flow,20.0,5.0,70,50,100,1092,3.8,7,10.8
+E1 Android permission flow,20.0,5.0,70,80,50,1092,4.7,7,11.7
+E1 Android permission flow,20.0,5.0,70,80,100,1092,2.4,7,9.4
+E1 Android permission flow,20.0,8.0,30,50,50,445,7.2,7,14.2
+E1 Android permission flow,20.0,8.0,30,50,100,445,3.6,7,10.6
+E1 Android permission flow,20.0,8.0,30,80,50,445,4.5,7,11.5
+E1 Android permission flow,20.0,8.0,30,80,100,445,2.2,7,9.2
+E1 Android permission flow,20.0,8.0,50,50,50,445,4.3,7,11.3
+E1 Android permission flow,20.0,8.0,50,50,100,445,2.2,7,9.2
+E1 Android permission flow,20.0,8.0,50,80,50,445,2.7,7,9.7
+E1 Android permission flow,20.0,8.0,50,80,100,445,1.3,7,8.3
+E1 Android permission flow,20.0,8.0,70,50,50,445,3.1,7,10.1
+E1 Android permission flow,20.0,8.0,70,50,100,445,1.5,7,8.5
+E1 Android permission flow,20.0,8.0,70,80,50,445,1.9,7,8.9
+E1 Android permission flow,20.0,8.0,70,80,100,445,1.0,7,8.0
+E1 Android permission flow,30.0,3.0,30,50,50,3762,60.8,7,67.8
+E1 Android permission flow,30.0,3.0,30,50,100,3762,30.4,7,37.4
+E1 Android permission flow,30.0,3.0,30,80,50,3762,38.0,7,45.0
+E1 Android permission flow,30.0,3.0,30,80,100,3762,19.0,7,26.0
+E1 Android permission flow,30.0,3.0,50,50,50,3762,36.5,7,43.5
+E1 Android permission flow,30.0,3.0,50,50,100,3762,18.2,7,25.2
+E1 Android permission flow,30.0,3.0,50,80,50,3762,22.8,7,29.8
+E1 Android permission flow,30.0,3.0,50,80,100,3762,11.4,7,18.4
+E1 Android permission flow,30.0,3.0,70,50,50,3762,26.1,7,33.1
+E1 Android permission flow,30.0,3.0,70,50,100,3762,13.0,7,20.0
+E1 Android permission flow,30.0,3.0,70,80,50,3762,16.3,7,23.3
+E1 Android permission flow,30.0,3.0,70,80,100,3762,8.1,7,15.1
+E1 Android permission flow,30.0,5.0,30,50,50,1376,22.2,7,29.2
+E1 Android permission flow,30.0,5.0,30,50,100,1376,11.1,7,18.1
+E1 Android permission flow,30.0,5.0,30,80,50,1376,13.9,7,20.9
+E1 Android permission flow,30.0,5.0,30,80,100,1376,6.9,7,13.9
+E1 Android permission flow,30.0,5.0,50,50,50,1376,13.3,7,20.3
+E1 Android permission flow,30.0,5.0,50,50,100,1376,6.7,7,13.7
+E1 Android permission flow,30.0,5.0,50,80,50,1376,8.3,7,15.3
+E1 Android permission flow,30.0,5.0,50,80,100,1376,4.2,7,11.2
+E1 Android permission flow,30.0,5.0,70,50,50,1376,9.5,7,16.5
+E1 Android permission flow,30.0,5.0,70,50,100,1376,4.8,7,11.8
+E1 Android permission flow,30.0,5.0,70,80,50,1376,6.0,7,13.0
+E1 Android permission flow,30.0,5.0,70,80,100,1376,3.0,7,10.0
+E1 Android permission flow,30.0,8.0,30,50,50,549,8.9,7,15.9
+E1 Android permission flow,30.0,8.0,30,50,100,549,4.4,7,11.4
+E1 Android permission flow,30.0,8.0,30,80,50,549,5.5,7,12.5
+E1 Android permission flow,30.0,8.0,30,80,100,549,2.8,7,9.8
+E1 Android permission flow,30.0,8.0,50,50,50,549,5.3,7,12.3
+E1 Android permission flow,30.0,8.0,50,50,100,549,2.7,7,9.7
+E1 Android permission flow,30.0,8.0,50,80,50,549,3.3,7,10.3
+E1 Android permission flow,30.0,8.0,50,80,100,549,1.7,7,8.7
+E1 Android permission flow,30.0,8.0,70,50,50,549,3.8,7,10.8
+E1 Android permission flow,30.0,8.0,70,50,100,549,1.9,7,8.9
+E1 Android permission flow,30.0,8.0,70,80,50,549,2.4,7,9.4
+E1 Android permission flow,30.0,8.0,70,80,100,549,1.2,7,8.2
+E1 Android permission flow,40.0,3.0,30,50,50,4233,68.4,7,75.4
+E1 Android permission flow,40.0,3.0,30,50,100,4233,34.2,7,41.2
+E1 Android permission flow,40.0,3.0,30,80,50,4233,42.8,7,49.8
+E1 Android permission flow,40.0,3.0,30,80,100,4233,21.4,7,28.4
+E1 Android permission flow,40.0,3.0,50,50,50,4233,41.0,7,48.0
+E1 Android permission flow,40.0,3.0,50,50,100,4233,20.5,7,27.5
+E1 Android permission flow,40.0,3.0,50,80,50,4233,25.7,7,32.7
+E1 Android permission flow,40.0,3.0,50,80,100,4233,12.8,7,19.8
+E1 Android permission flow,40.0,3.0,70,50,50,4233,29.3,7,36.3
+E1 Android permission flow,40.0,3.0,70,50,100,4233,14.7,7,21.7
+E1 Android permission flow,40.0,3.0,70,80,50,4233,18.3,7,25.3
+E1 Android permission flow,40.0,3.0,70,80,100,4233,9.2,7,16.2
+E1 Android permission flow,40.0,5.0,30,50,50,1533,24.8,7,31.8
+E1 Android permission flow,40.0,5.0,30,50,100,1533,12.4,7,19.4
+E1 Android permission flow,40.0,5.0,30,80,50,1533,15.5,7,22.5
+E1 Android permission flow,40.0,5.0,30,80,100,1533,7.7,7,14.7
+E1 Android permission flow,40.0,5.0,50,50,50,1533,14.9,7,21.9
+E1 Android permission flow,40.0,5.0,50,50,100,1533,7.4,7,14.4
+E1 Android permission flow,40.0,5.0,50,80,50,1533,9.3,7,16.3
+E1 Android permission flow,40.0,5.0,50,80,100,1533,4.6,7,11.6
+E1 Android permission flow,40.0,5.0,70,50,50,1533,10.6,7,17.6
+E1 Android permission flow,40.0,5.0,70,50,100,1533,5.3,7,12.3
+E1 Android permission flow,40.0,5.0,70,80,50,1533,6.6,7,13.6
+E1 Android permission flow,40.0,5.0,70,80,100,1533,3.3,7,10.3
+E1 Android permission flow,40.0,8.0,30,50,50,603,9.7,7,16.7
+E1 Android permission flow,40.0,8.0,30,50,100,603,4.9,7,11.9
+E1 Android permission flow,40.0,8.0,30,80,50,603,6.1,7,13.1
+E1 Android permission flow,40.0,8.0,30,80,100,603,3.0,7,10.0
+E1 Android permission flow,40.0,8.0,50,50,50,603,5.8,7,12.8
+E1 Android permission flow,40.0,8.0,50,50,100,603,2.9,7,9.9
+E1 Android permission flow,40.0,8.0,50,80,50,603,3.7,7,10.7
+E1 Android permission flow,40.0,8.0,50,80,100,603,1.8,7,8.8
+E1 Android permission flow,40.0,8.0,70,50,50,603,4.2,7,11.2
+E1 Android permission flow,40.0,8.0,70,50,100,603,2.1,7,9.1
+E1 Android permission flow,40.0,8.0,70,80,50,603,2.6,7,9.6
+E1 Android permission flow,40.0,8.0,70,80,100,603,1.3,7,8.3
+E2 Free-tier cap level,1.0,0.5,30,50,50,7673,124.0,14,138.0
+E2 Free-tier cap level,1.0,0.5,30,50,100,7673,62.0,14,76.0
+E2 Free-tier cap level,1.0,0.5,30,80,50,7673,77.5,14,91.5
+E2 Free-tier cap level,1.0,0.5,30,80,100,7673,38.8,14,52.8
+E2 Free-tier cap level,1.0,0.5,50,50,50,7673,74.4,14,88.4
+E2 Free-tier cap level,1.0,0.5,50,50,100,7673,37.2,14,51.2
+E2 Free-tier cap level,1.0,0.5,50,80,50,7673,46.5,14,60.5
+E2 Free-tier cap level,1.0,0.5,50,80,100,7673,23.3,14,37.3
+E2 Free-tier cap level,1.0,0.5,70,50,50,7673,53.1,14,67.1
+E2 Free-tier cap level,1.0,0.5,70,50,100,7673,26.6,14,40.6
+E2 Free-tier cap level,1.0,0.5,70,80,50,7673,33.2,14,47.2
+E2 Free-tier cap level,1.0,0.5,70,80,100,7673,16.6,14,30.6
+E2 Free-tier cap level,1.0,1.0,30,50,50,2254,36.4,14,50.4
+E2 Free-tier cap level,1.0,1.0,30,50,100,2254,18.2,14,32.2
+E2 Free-tier cap level,1.0,1.0,30,80,50,2254,22.8,14,36.8
+E2 Free-tier cap level,1.0,1.0,30,80,100,2254,11.4,14,25.4
+E2 Free-tier cap level,1.0,1.0,50,50,50,2254,21.9,14,35.9
+E2 Free-tier cap level,1.0,1.0,50,50,100,2254,10.9,14,24.9
+E2 Free-tier cap level,1.0,1.0,50,80,50,2254,13.7,14,27.7
+E2 Free-tier cap level,1.0,1.0,50,80,100,2254,6.8,14,20.8
+E2 Free-tier cap level,1.0,1.0,70,50,50,2254,15.6,14,29.6
+E2 Free-tier cap level,1.0,1.0,70,50,100,2254,7.8,14,21.8
+E2 Free-tier cap level,1.0,1.0,70,80,50,2254,9.8,14,23.8
+E2 Free-tier cap level,1.0,1.0,70,80,100,2254,4.9,14,18.9
+E2 Free-tier cap level,1.0,2.0,30,50,50,718,11.6,14,25.6
+E2 Free-tier cap level,1.0,2.0,30,50,100,718,5.8,14,19.8
+E2 Free-tier cap level,1.0,2.0,30,80,50,718,7.3,14,21.3
+E2 Free-tier cap level,1.0,2.0,30,80,100,718,3.6,14,17.6
+E2 Free-tier cap level,1.0,2.0,50,50,50,718,7.0,14,21.0
+E2 Free-tier cap level,1.0,2.0,50,50,100,718,3.5,14,17.5
+E2 Free-tier cap level,1.0,2.0,50,80,50,718,4.4,14,18.4
+E2 Free-tier cap level,1.0,2.0,50,80,100,718,2.2,14,16.2
+E2 Free-tier cap level,1.0,2.0,70,50,50,718,5.0,14,19.0
+E2 Free-tier cap level,1.0,2.0,70,50,100,718,2.5,14,16.5
+E2 Free-tier cap level,1.0,2.0,70,80,50,718,3.1,14,17.1
+E2 Free-tier cap level,1.0,2.0,70,80,100,718,1.6,14,15.6
+E2 Free-tier cap level,2.0,0.5,30,50,50,13768,222.5,14,236.5
+E2 Free-tier cap level,2.0,0.5,30,50,100,13768,111.3,14,125.3
+E2 Free-tier cap level,2.0,0.5,30,80,50,13768,139.1,14,153.1
+E2 Free-tier cap level,2.0,0.5,30,80,100,13768,69.5,14,83.5
+E2 Free-tier cap level,2.0,0.5,50,50,50,13768,133.5,14,147.5
+E2 Free-tier cap level,2.0,0.5,50,50,100,13768,66.8,14,80.8
+E2 Free-tier cap level,2.0,0.5,50,80,50,13768,83.4,14,97.4
+E2 Free-tier cap level,2.0,0.5,50,80,100,13768,41.7,14,55.7
+E2 Free-tier cap level,2.0,0.5,70,50,50,13768,95.4,14,109.4
+E2 Free-tier cap level,2.0,0.5,70,50,100,13768,47.7,14,61.7
+E2 Free-tier cap level,2.0,0.5,70,80,50,13768,59.6,14,73.6
+E2 Free-tier cap level,2.0,0.5,70,80,100,13768,29.8,14,43.8
+E2 Free-tier cap level,2.0,1.0,30,50,50,3788,61.2,14,75.2
+E2 Free-tier cap level,2.0,1.0,30,50,100,3788,30.6,14,44.6
+E2 Free-tier cap level,2.0,1.0,30,80,50,3788,38.3,14,52.3
+E2 Free-tier cap level,2.0,1.0,30,80,100,3788,19.1,14,33.1
+E2 Free-tier cap level,2.0,1.0,50,50,50,3788,36.7,14,50.7
+E2 Free-tier cap level,2.0,1.0,50,50,100,3788,18.4,14,32.4
+E2 Free-tier cap level,2.0,1.0,50,80,50,3788,23.0,14,37.0
+E2 Free-tier cap level,2.0,1.0,50,80,100,3788,11.5,14,25.5
+E2 Free-tier cap level,2.0,1.0,70,50,50,3788,26.2,14,40.2
+E2 Free-tier cap level,2.0,1.0,70,50,100,3788,13.1,14,27.1
+E2 Free-tier cap level,2.0,1.0,70,80,50,3788,16.4,14,30.4
+E2 Free-tier cap level,2.0,1.0,70,80,100,3788,8.2,14,22.2
+E2 Free-tier cap level,2.0,2.0,30,50,50,1110,17.9,14,31.9
+E2 Free-tier cap level,2.0,2.0,30,50,100,1110,9.0,14,23.0
+E2 Free-tier cap level,2.0,2.0,30,80,50,1110,11.2,14,25.2
+E2 Free-tier cap level,2.0,2.0,30,80,100,1110,5.6,14,19.6
+E2 Free-tier cap level,2.0,2.0,50,50,50,1110,10.8,14,24.8
+E2 Free-tier cap level,2.0,2.0,50,50,100,1110,5.4,14,19.4
+E2 Free-tier cap level,2.0,2.0,50,80,50,1110,6.7,14,20.7
+E2 Free-tier cap level,2.0,2.0,50,80,100,1110,3.4,14,17.4
+E2 Free-tier cap level,2.0,2.0,70,50,50,1110,7.7,14,21.7
+E2 Free-tier cap level,2.0,2.0,70,50,100,1110,3.8,14,17.8
+E2 Free-tier cap level,2.0,2.0,70,80,50,1110,4.8,14,18.8
+E2 Free-tier cap level,2.0,2.0,70,80,100,1110,2.4,14,16.4
+E2 Free-tier cap level,4.0,0.5,30,50,50,25530,412.6,14,426.6
+E2 Free-tier cap level,4.0,0.5,30,50,100,25530,206.3,14,220.3
+E2 Free-tier cap level,4.0,0.5,30,80,50,25530,257.9,14,271.9
+E2 Free-tier cap level,4.0,0.5,30,80,100,25530,128.9,14,142.9
+E2 Free-tier cap level,4.0,0.5,50,50,50,25530,247.6,14,261.6
+E2 Free-tier cap level,4.0,0.5,50,50,100,25530,123.8,14,137.8
+E2 Free-tier cap level,4.0,0.5,50,80,50,25530,154.7,14,168.7
+E2 Free-tier cap level,4.0,0.5,50,80,100,25530,77.4,14,91.4
+E2 Free-tier cap level,4.0,0.5,70,50,50,25530,176.8,14,190.8
+E2 Free-tier cap level,4.0,0.5,70,50,100,25530,88.4,14,102.4
+E2 Free-tier cap level,4.0,0.5,70,80,50,25530,110.5,14,124.5
+E2 Free-tier cap level,4.0,0.5,70,80,100,25530,55.3,14,69.3
+E2 Free-tier cap level,4.0,1.0,30,50,50,6726,108.7,14,122.7
+E2 Free-tier cap level,4.0,1.0,30,50,100,6726,54.4,14,68.4
+E2 Free-tier cap level,4.0,1.0,30,80,50,6726,67.9,14,81.9
+E2 Free-tier cap level,4.0,1.0,30,80,100,6726,34.0,14,48.0
+E2 Free-tier cap level,4.0,1.0,50,50,50,6726,65.2,14,79.2
+E2 Free-tier cap level,4.0,1.0,50,50,100,6726,32.6,14,46.6
+E2 Free-tier cap level,4.0,1.0,50,80,50,6726,40.8,14,54.8
+E2 Free-tier cap level,4.0,1.0,50,80,100,6726,20.4,14,34.4
+E2 Free-tier cap level,4.0,1.0,70,50,50,6726,46.6,14,60.6
+E2 Free-tier cap level,4.0,1.0,70,50,100,6726,23.3,14,37.3
+E2 Free-tier cap level,4.0,1.0,70,80,50,6726,29.1,14,43.1
+E2 Free-tier cap level,4.0,1.0,70,80,100,6726,14.6,14,28.6
+E2 Free-tier cap level,4.0,2.0,30,50,50,1846,29.8,14,43.8
+E2 Free-tier cap level,4.0,2.0,30,50,100,1846,14.9,14,28.9
+E2 Free-tier cap level,4.0,2.0,30,80,50,1846,18.6,14,32.6
+E2 Free-tier cap level,4.0,2.0,30,80,100,1846,9.3,14,23.3
+E2 Free-tier cap level,4.0,2.0,50,50,50,1846,17.9,14,31.9
+E2 Free-tier cap level,4.0,2.0,50,50,100,1846,8.9,14,22.9
+E2 Free-tier cap level,4.0,2.0,50,80,50,1846,11.2,14,25.2
+E2 Free-tier cap level,4.0,2.0,50,80,100,1846,5.6,14,19.6
+E2 Free-tier cap level,4.0,2.0,70,50,50,1846,12.8,14,26.8
+E2 Free-tier cap level,4.0,2.0,70,50,100,1846,6.4,14,20.4
+E2 Free-tier cap level,4.0,2.0,70,80,50,1846,8.0,14,22.0
+E2 Free-tier cap level,4.0,2.0,70,80,100,1846,4.0,14,18.0
+E3 Invite loop,10.0,2.0,100,50,50,3835,18.6,7,25.6
+E3 Invite loop,10.0,2.0,100,50,100,3835,9.3,7,16.3
+E3 Invite loop,10.0,2.0,100,80,50,3835,11.6,7,18.6
+E3 Invite loop,10.0,2.0,100,80,100,3835,5.8,7,12.8
+E3 Invite loop,10.0,4.0,100,50,50,1029,5.0,7,12.0
+E3 Invite loop,10.0,4.0,100,50,100,1029,2.5,7,9.5
+E3 Invite loop,10.0,4.0,100,80,50,1029,3.1,7,10.1
+E3 Invite loop,10.0,4.0,100,80,100,1029,1.6,7,8.6
+E3 Invite loop,10.0,6.0,100,50,50,487,2.4,7,9.4
+E3 Invite loop,10.0,6.0,100,50,100,487,1.2,7,8.2
+E3 Invite loop,10.0,6.0,100,80,50,487,1.5,7,8.5
+E3 Invite loop,10.0,6.0,100,80,100,487,0.7,7,7.7
+E3 Invite loop,20.0,2.0,100,50,50,6507,31.6,7,38.6
+E3 Invite loop,20.0,2.0,100,50,100,6507,15.8,7,22.8
+E3 Invite loop,20.0,2.0,100,80,50,6507,19.7,7,26.7
+E3 Invite loop,20.0,2.0,100,80,100,6507,9.9,7,16.9
+E3 Invite loop,20.0,4.0,100,50,50,1680,8.1,7,15.1
+E3 Invite loop,20.0,4.0,100,50,100,1680,4.1,7,11.1
+E3 Invite loop,20.0,4.0,100,80,50,1680,5.1,7,12.1
+E3 Invite loop,20.0,4.0,100,80,100,1680,2.5,7,9.5
+E3 Invite loop,20.0,6.0,100,50,50,769,3.7,7,10.7
+E3 Invite loop,20.0,6.0,100,50,100,769,1.9,7,8.9
+E3 Invite loop,20.0,6.0,100,80,50,769,2.3,7,9.3
+E3 Invite loop,20.0,6.0,100,80,100,769,1.2,7,8.2
+E3 Invite loop,30.0,2.0,100,50,50,8392,40.7,7,47.7
+E3 Invite loop,30.0,2.0,100,50,100,8392,20.3,7,27.3
+E3 Invite loop,30.0,2.0,100,80,50,8392,25.4,7,32.4
+E3 Invite loop,30.0,2.0,100,80,100,8392,12.7,7,19.7
+E3 Invite loop,30.0,4.0,100,50,50,2133,10.3,7,17.3
+E3 Invite loop,30.0,4.0,100,50,100,2133,5.2,7,12.2
+E3 Invite loop,30.0,4.0,100,80,50,2133,6.5,7,13.5
+E3 Invite loop,30.0,4.0,100,80,100,2133,3.2,7,10.2
+E3 Invite loop,30.0,6.0,100,50,50,962,4.7,7,11.7
+E3 Invite loop,30.0,6.0,100,50,100,962,2.3,7,9.3
+E3 Invite loop,30.0,6.0,100,80,50,962,2.9,7,9.9
+E3 Invite loop,30.0,6.0,100,80,100,962,1.5,7,8.5

@@ -1,0 +1,97 @@
+{
+ "seed": 20261018,
+ "requested": 600,
+ "n_sampled": 600,
+ "pool_size_non_gold": 3090,
+ "n_gold_excluded": 100,
+ "by_store": {
+  "appstore": 36,
+  "play": 564
+ },
+ "by_store_country": {
+  "appstore/in": 21,
+  "appstore/us": 15,
+  "play/unscoped": 564
+ },
+ "by_rating": {
+  "1": 98,
+  "2": 38,
+  "3": 43,
+  "4": 54,
+  "5": 367
+ },
+ "by_language": {
+  "Devanagari": 1,
+  "en": 593,
+  "other": 2,
+  "roman-Hindi": 4
+ },
+ "pool_by_language": {
+  "Devanagari": 3,
+  "en": 3048,
+  "other": 11,
+  "roman-Hindi": 28
+ },
+ "strata": [
+  {
+   "store": "appstore",
+   "rating": 1,
+   "available": 19,
+   "sampled": 4
+  },
+  {
+   "store": "appstore",
+   "rating": 2,
+   "available": 1,
+   "sampled": 0
+  },
+  {
+   "store": "appstore",
+   "rating": 3,
+   "available": 11,
+   "sampled": 2
+  },
+  {
+   "store": "appstore",
+   "rating": 4,
+   "available": 11,
+   "sampled": 2
+  },
+  {
+   "store": "appstore",
+   "rating": 5,
+   "available": 143,
+   "sampled": 28
+  },
+  {
+   "store": "play",
+   "rating": 1,
+   "available": 483,
+   "sampled": 94
+  },
+  {
+   "store": "play",
+   "rating": 2,
+   "available": 199,
+   "sampled": 38
+  },
+  {
+   "store": "play",
+   "rating": 3,
+   "available": 210,
+   "sampled": 41
+  },
+  {
+   "store": "play",
+   "rating": 4,
+   "available": 268,
+   "sampled": 52
+  },
+  {
+   "store": "play",
+   "rating": 5,
+   "available": 1745,
+   "sampled": 339
+  }
+ ]
+}
