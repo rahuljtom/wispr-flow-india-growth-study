@@ -2,19 +2,15 @@
 import pandas as pd
 
 from src.common.ledger import add_claim, read_ledger
+from src.common.sql import run_sql
 
 FX = 320 / 3.4  # INR per USD, implied by TechCrunch's own conversion (May 2026); no independent FX source
 
 
 def build():
     df = pd.read_csv("data/processed/competitor_pricing.csv")
-    df["price_inr_per_month"] = pd.to_numeric(df["price_usd_per_month"], errors="coerce") * FX
-    india = df["product"].eq("Wispr Flow") & df["plan"].eq("India Pro")
-    df.loc[india & df["billing"].eq("annual"), "price_inr_per_month"] = 320.0  # India page R-071
-    df.loc[india & df["billing"].eq("monthly"), "price_inr_per_month"] = 400.0  # India page R-070
-    df["price_inr_per_month"] = df["price_inr_per_month"].round(0)
-    df["fx_inr_per_usd"] = round(FX, 1)
-    df["fx_basis"] = "implied by TechCrunch 2026-05-09 (Rs 320 = about $3.4); not an independent FX source"
+    df = run_sql("value_ladder.sql", {"fx": FX, "india_annual_inr": 320.0, "india_monthly_inr": 400.0},
+                 {"pricing": df})  # India page R-071 (annual) and R-070 (monthly)
     df.to_csv("data/processed/value_ladder.csv", index=False)
     return df
 
