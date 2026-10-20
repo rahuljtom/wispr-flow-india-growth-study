@@ -8,13 +8,15 @@ Reported figures put India at about 14% of Wispr Flow installs but about 2% of i
 ## Analysis modules
 Module names (A1 to A7) are used in code and documents; `run_p6.py` is the historical name of the script that runs A3, A4 and A7.
 
+The review-theme shares, the decomposition grid and the price ladder are computed by SQL files in `sql/` (DuckDB, run in memory). Python loads the inputs, passes assumptions as parameters and writes the CSVs. The earlier pandas functions remain in `src/analysis/` as a reference implementation that the tests compare against; the pipeline does not call them.
+
 | Module | What it does | Code |
 |---|---|---|
-| A1 | Review-theme shares with Wilson 95% intervals; cells with fewer than 30 reviews are suppressed | `src/analysis/themes.py`, `run_a1.py` |
+| A1 | Review-theme shares with Wilson 95% intervals; cells with fewer than 30 reviews are suppressed | `sql/theme_stats.sql`, `sql/segments_*.sql` (run by `src/analysis/themes_sql.py`), `run_a1.py` |
 | A2 | Competitor evidence and scoring by a written rubric, ranking and leave-one-criterion-out sensitivity | `src/analysis/competitors.py`, `src/pulls/competitor_play.py` |
 | A3 | Karnataka versus control states in Google Trends (event study, difference-in-differences when estimable) | `src/analysis/trends.py` |
-| A4 | Scenario decomposition of the install-versus-revenue gap | `src/analysis/decomposition.py` |
-| A5 | Price ladder in INR per month at an implied FX rate | `src/analysis/value_ladder.py` |
+| A4 | Scenario decomposition of the install-versus-revenue gap | `sql/decomposition_scenarios.sql` (run by `src/analysis/decomposition.py`) |
+| A5 | Price ladder in INR per month at an implied FX rate | `sql/value_ladder.sql` (run by `src/analysis/value_ladder.py`) |
 | A7 | Experiment sizing (two-proportion power, traffic-based duration, follow-up windows) | `src/analysis/sizing.py` |
 
 A6 (unit economics) was not built.

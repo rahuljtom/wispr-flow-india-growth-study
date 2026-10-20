@@ -50,6 +50,7 @@ python -m src.tagging.tagger --gold-split test --prompt-version v3 --name test_v
 python -m src.tagging.evaluate eval test data/interim/tags/test_v3.json      # allowed once
 python -m src.tagging.bulk                            # seeded 600-review sample of non-gold reviews
 python -m src.tagging.tagger --keys-file data/interim/bulk_sample_ids.csv --prompt-version v3 --name bulk_v3 --run --approve-gemini-data-processing
+make themes   # same as: python -m src.analysis.run_a1 --partial (needs private data)
 python -m src.analysis.run_a1 [--partial]             # theme tables and chart (--partial: analyse an interrupted run)
 ```
 The first tagging call sends scrubbed review text to Google (see `docs/sources.md`). The free tier has a daily request limit that interrupted the bulk run at 321 of 600 reviews; analyses of that interim snapshot are labelled as such.

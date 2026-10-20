@@ -58,6 +58,7 @@ Sources, dates and terms: [docs/sources.md](docs/sources.md) and [docs/source_lo
 
 ## Repository layout
 ```
+sql/               DuckDB queries for the core aggregations (theme shares and intervals, decomposition grid, price ladder)
 src/analysis/      A1-A7 analysis modules (themes, competitors, trends, decomposition, value ladder, sizing, charts)
 src/pulls/         Reviews, Trends, pricing snapshots and competitor listing pulls (rate-limited, logged)
 src/transform/     Review parsing, scrubbing, hashing; price parser
@@ -72,7 +73,7 @@ data/logs/         Pull and failure logs
 outputs/           deck/deck.pptx, dashboard/ (CSVs + workbook), charts/
 docs/              Methodology, data dictionary, sources, limitations, reproducibility, validation, research notes
 ```
-Stack (from the imports): Python, pandas, numpy, scipy, statsmodels, matplotlib, python-pptx, openpyxl, requests, python-dotenv, google-play-scraper, pytrends, pytest and ruff; Google's Gemini API for tagging.
+Stack (from the imports): Python, SQL (DuckDB), pandas, numpy, scipy, statsmodels, matplotlib, python-pptx, openpyxl, requests, python-dotenv, google-play-scraper, pytrends, pytest and ruff; Google's Gemini API for tagging.
 
 ## Install, run, verify
 ```bash
