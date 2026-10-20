@@ -63,12 +63,12 @@ def a3():
         for g, s in series.items():
             ax.plot(s.index, s.values, label=g, lw=2 if g == "IN-KA" else 1.2)
         ax.axvline(EVENT, color="grey", ls="--")
-        ax.set_ylabel("Search interest, index (own pre-period mean = 100)")
+        ax.set_ylabel("Search interest index\n(own pre-period mean = 100)", fontsize=8)
         ax.set_title('"wispr flow" Google Trends, weekly (directional; provisional campaign date)', fontsize=9)
         ax.legend(fontsize=8)
         fig.autofmt_xdate()
         fig.tight_layout()
-        fig.savefig(CHARTS / "trends_event_study.png", dpi=200)
+        fig.savefig(CHARTS / "trends_event_study.png", dpi=200, bbox_inches="tight")
         plt.close(fig)
         (CHARTS / "trends_event_study.json").write_text(json.dumps({"labels": []}))
     return out
