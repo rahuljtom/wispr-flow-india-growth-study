@@ -20,4 +20,4 @@
 - Baselines and effect sizes are illustrative assumptions; guardrail limits need internal baselines; 1,650 installs a day is a whole-window average and probably understates current traffic.
 
 **Dashboard**
-- The Looker Studio report is built manually in a Google account; the repository contains data, a workbook and a build guide, not the report or any link.
+- The Looker Studio report is built manually in a Google account and is not refreshed by `make reproduce`; the repository contains the data, a workbook and a build guide, and the README links the report.

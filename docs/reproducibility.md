@@ -56,7 +56,7 @@ The first tagging call sends scrubbed review text to Google (see `docs/sources.m
 
 ## Dashboard and presentation
 - `make dashboard` regenerates the eleven dashboard CSVs, the workbook and the per-page guides; `make deck` builds `outputs/deck/deck.pptx`.
-- The Looker Studio report is **not** created automatically: build it by hand from `docs/looker_studio_setup.md` (or the per-page guides in `docs/looker/`) in a Google account. No report link, Google Sheet or credential is part of this repository.
+- The Looker Studio report is **not** created automatically: build it by hand from `docs/looker_studio_setup.md` (or the per-page guides in `docs/looker/`) in a Google account. The README links the published report; no Google Sheet or credential is part of this repository.
 
 ## Checks
 `make check` runs the full pytest suite (CSV/schema rules, workbook round trip, independent recomputation of review shares, test metrics, decomposition and experiment sizes, competitor-score invariants, regression tests for corrected defects), ruff, the ledger check (every number in the deck and chart sidecars has a ledger row) and a text-fit estimate for the deck. Tests that need private data (gold files, review text, tags) skip when those files are absent.
