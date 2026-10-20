@@ -11,7 +11,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from src.analysis.themes import MIN_N, theme_table
+from src.analysis.themes import MIN_N
+from src.analysis.themes_sql import theme_tables
 
 CAMPAIGN = pd.Timestamp("2026-04-27", tz="UTC")  # provisional (DECISIONS #3)
 
@@ -47,25 +48,11 @@ def main(tags_path="data/interim/tags/bulk_v3.json", partial_of=None):
            "by_store": {k: int(v) for k, v in df.groupby("store").size().items()},
            "date_min": str(df.review_date.min().date()), "date_max": str(df.review_date.max().date())}
     Path("data/processed/a1_coverage.json").write_text(json.dumps(cov, indent=1))
-    segs = {"all tagged sample": df}
-    segs["rating<=2 (low-rated)"] = df[df["rating"] <= 2]
-    for st, g in df.groupby("store"):
-        segs[f"store={st}"] = g
-    for lp, g in df.groupby("lang_proxy"):
-        segs[lp] = g
-    for (st, c), g in df.groupby(["store", "country"]):
-        if st == "appstore":
-            segs[f"appstore {c} (not comparable windows)"] = g
-    table = pd.concat([theme_table(g, name) for name, g in segs.items()], ignore_index=True)
+    table, mt = theme_tables(df)  # sql/segments_overall.sql, sql/segments_monthly.sql, sql/theme_stats.sql
     table.to_csv("data/processed/themes_by_segment.csv", index=False)
     sent = df.groupby("sentiment").size().rename("n").reset_index()
     sent["share"] = sent["n"] / len(df)
     sent.to_csv("data/processed/sentiment_overall.csv", index=False)
-    df["month"] = df["review_date"].dt.strftime("%Y-%m")
-    monthly = []
-    for m, g in df.groupby("month"):
-        monthly.append(theme_table(g, f"month={m}"))
-    mt = pd.concat(monthly, ignore_index=True)
     mt.to_csv("data/processed/themes_monthly.csv", index=False)
     allt = table[(table.segment == "all tagged sample") & (table.n_with_theme > 0)].sort_values(
         "share", ascending=False).head(8)
