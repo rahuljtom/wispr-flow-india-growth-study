@@ -8,7 +8,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from src.analysis.decomposition import decompose, scenario_grid
+from src.analysis.decomposition import run_grid
 from src.analysis.sizing import sizing_table
 from src.analysis.trends import did_estimate, index_series, pre_stats, usable
 from src.common.ledger import add_claim, read_ledger
@@ -24,8 +24,10 @@ def ledger_once(claim_id, *args, **kw):
 
 
 def a4():
-    d = decompose(0.14, 0.02, 3.4, 12.0)
-    g = scenario_grid(0.14, 0.02, 3.4, 12.0, window_days=212, price_start_day=61)
+    g = run_grid(0.14, 0.02, 3.4, 12.0, window_days=212, price_start_day=61)
+    point = g[(g.missed_share == 0) & (g.price_window_share == 1.0)].iloc[0]
+    d = {"rev_per_install_index": point.rev_per_install_index, "price_index": point.price_index,
+         "residual_index": point.residual_index}
     g.to_csv(PROC / "decomposition_scenarios.csv", index=False)
     lo, hi = g.residual_index.min(), g.residual_index.max()
     rlo, rhi = g.rev_per_install_index.min(), g.rev_per_install_index.max()

@@ -7,7 +7,23 @@ import itertools
 
 import pandas as pd
 
+from src.common.sql import run_sql
 
+MISSED = (0.0, 0.2, 0.4, 0.6)
+
+
+def run_grid(install_share, rev_share, india_price, global_price, window_days, price_start_day,
+             missed=MISSED):
+    """The pipeline's grid: computed by sql/decomposition_scenarios.sql."""
+    return run_sql("decomposition_scenarios.sql",
+                   {"install_share": install_share, "rev_share": rev_share, "india_price": india_price,
+                    "global_price": global_price, "window_days": window_days,
+                    "price_start_day": price_start_day},
+                   {"missed": pd.DataFrame({"missed_share": list(missed)})})
+
+
+# decompose, adjusted_share and scenario_grid below are the reference implementation: the tests use
+# them as an oracle for the SQL, and the pipeline does not call them.
 def decompose(install_share, rev_share, india_price, global_price):
     rpi = rev_share / install_share
     price = india_price / global_price
