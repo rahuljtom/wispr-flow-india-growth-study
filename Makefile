@@ -2,7 +2,7 @@
 PY ?= .venv/bin/python
 BASE_PY ?= python3.12  # Python 3.11 or newer is required
 
-.PHONY: setup test lint ledger-check layout-check check analyze charts value-ladder competitors dashboard deck reproduce
+.PHONY: setup test lint ledger-check layout-check check themes analyze charts value-ladder competitors dashboard deck reproduce
 
 setup:
 	$(BASE_PY) -m venv .venv
@@ -24,6 +24,10 @@ layout-check:
 check: test lint ledger-check layout-check
 
 # Decomposition, Trends event study and experiment sizing (reads data/interim/trends_*.csv, writes data/processed and outputs/charts).
+# Needs the private review data and stored tag snapshot (not in the repository, not part of `reproduce`).
+themes:
+	$(PY) -m src.analysis.run_a1 --partial
+
 analyze:
 	$(PY) -m src.analysis.run_p6
 
